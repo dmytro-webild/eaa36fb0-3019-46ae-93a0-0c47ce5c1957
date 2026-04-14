@@ -47,8 +47,8 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
       background={{ variant: "gradient-bars" }}
-      title="The Professional Standard for Your Demo"
-      description="Showcase your product with precision and elegance. Our platform provides the tools to build, test, and iterate on your ideas faster than ever."
+      title="The Professional Standard this is just aDemo"
+      description="Showcase your product with precision and elegance. Our platform provides the tools to build, test, and iterate on your ideas faster than ever.created by nafih s (abdulnafih9539@gmail.com)"
       tag="Innovation Redefined"
       mediaItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/minimal-work-space-creative-flat-lay-photo-workspace-desk-with-sketchbook-mobile-phone-with-blank-screen-copy-space-white-background-top-view-flat-lay-photography_1253-1063.jpg", imageAlt: "Abstract Tech" },
@@ -160,7 +160,7 @@ export default function LandingPage() {
         { name: "email", type: "email", placeholder: "Work Email", required: true },
       ]}
       textarea={{ name: "message", placeholder: "Tell us about your needs...", rows: 4 }}
-      imageSrc="http://img.b2bpic.net/free-photo/brown-red-watercolor-texture_95678-149.jpg"
+      imageSrc="http://img.b2bpic.net/premium-photo/dynamic-office-meeting-with-business-team-cityscape-overlook-night-stylish-interior-design_937679-77490.jpg?id=382404609"
     />
   </div>
 
@@ -170,7 +170,7 @@ export default function LandingPage() {
         { title: "Product", items: [{ label: "Features", href: "#features" }, { label: "Pricing", href: "#pricing" }] },
         { title: "Company", items: [{ label: "About", href: "#" }, { label: "Contact", href: "#contact" }] },
       ]}
-      logoText="DemoPro"
+      logoText="Demo this is created by nafih s "
       copyrightText="© 2025 Demo Pro, Inc."
     />
   </div>
