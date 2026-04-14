@@ -156,7 +156,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      logoText="DemoPro"
+      logoText="Demo it is for under testing it will publ;ish soon as possible by [abdul nafih s]"
       copyrightText="© 2025 DemoPro, Inc."
     />
   </div>
