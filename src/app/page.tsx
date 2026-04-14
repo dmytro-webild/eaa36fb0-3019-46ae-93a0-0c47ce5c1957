@@ -65,6 +65,7 @@ export default function LandingPage() {
       title="Trusted by Industry Leaders"
       description="Join the companies transforming their workflow with our platform."
       names={["Acme Corp", "TechFlow", "GlobalSoft", "InnovateAI", "NextGen", "DataScale"]}
+      textboxLayout="default"
       useInvertedBackground={false}
     />
   </div>
@@ -105,6 +106,7 @@ export default function LandingPage() {
       description="Choose the plan that best fits your business needs."
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       plans={[
         { id: "p1", badge: "Starter", price: "$49", subtitle: "For individual creators", features: ["Core features", "Basic support", "Single project"] },
         { id: "p2", badge: "Pro", price: "$99", subtitle: "For growing teams", features: ["Everything in Starter", "Advanced analytics", "Priority support"] },
@@ -143,6 +145,7 @@ export default function LandingPage() {
     <ContactText
       text="Ready to transform your workflow? Get started today."
       background={{ variant: "sparkles-gradient" }}
+      useInvertedBackground={false}
       buttons={[{ text: "Get Started", href: "#contact" }]}
     />
   </div>
